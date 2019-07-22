@@ -17,6 +17,7 @@ class ComposerStaticInit2971eb5ca52bfce55d0db3d8275a18a3
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
+        '3d5a4d29ce3a373ff9fae05310ce663f' => __DIR__ . '/../..' . '/app/Http/helper.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -326,6 +327,7 @@ class ComposerStaticInit2971eb5ca52bfce55d0db3d8275a18a3
         'App\\Admin' => __DIR__ . '/../..' . '/app/Admin.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\Admin\\AdminAuth' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/AdminAuth.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
@@ -334,6 +336,7 @@ class ComposerStaticInit2971eb5ca52bfce55d0db3d8275a18a3
         'App\\Http\\Controllers\\NewsController' => __DIR__ . '/../..' . '/app/22-الحذف النعم/NewsController.php',
         'App\\Http\\Controllers\\Users' => __DIR__ . '/../..' . '/app/Http/Controllers/Users.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
+        'App\\Http\\Middleware\\Admin' => __DIR__ . '/../..' . '/app/Http/Middleware/Admin.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',

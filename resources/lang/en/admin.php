@@ -10,5 +10,10 @@ return [
           ///////////
          'login'   =>    'Login',
          'inccorrect_information_login'   =>    'Email OR password  please Try again (:',
+         'forgot_password'   =>    'forgot password',
+         'Reset'   =>    'Reset',
+         'email'   =>    'email',
+         'Ecomm'   =>    'Ecomm',
+         'erce'   =>    'erce',
 
 ];
