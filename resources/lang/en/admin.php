@@ -15,5 +15,8 @@ return [
          'email'   =>    'email',
          'Ecomm'   =>    'Ecomm',
          'erce'   =>    'erce',
+         'the_link_reset_sent'   =>    ' Reser Link IS Sent ',
+         'password_confirmation'   =>    'Enter password confirmation',
+         'password'   =>    'Enter password ',
 
 ];

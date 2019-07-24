@@ -37,19 +37,36 @@
   <div class="login-box-body">
     <p class="login-box-msg">{{trans('admin.forgot_password')}}</p>
 
-    <form  method="post">
       {!!csrf_field()!!} 
 
-      @if(session()->has('success'))
-       <div class="alert alert-success">
-       <h1>{{session('success')}}</h1>
+       @if(session()->has('success'))
+     <div class="alert alert-success">
+       <h1>{{ session('success') }}</h1>
      </div>
-       @endif
+    @endif
+
+    @if($errors->all())
+     <div class="alert alert-danger">
+       @foreach($errors->all() as $error)
+        <li>{{ $error }}</li>
+       @endforeach
+     </div>
+    @endif
+         <form  method="post">
+
       <div class="form-group has-feedback">
-        <input name="email" type="email" class="form-control" placeholder="{{trans('admin.email')}}">
+        <input name="email" value="{{$data->email}}" type="email" class="form-control" placeholder="{{trans('admin.email')}}">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
        
+         <div class="form-group has-feedback">
+        <input name="password" type="password" class="form-control" placeholder="{{trans('admin.password')}}">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div> 
+       <div class="form-group has-feedback">
+        <input name="password_confirmation" type="password" class="form-control" placeholder="{{trans('admin.password_confirmation')}}">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
 
       <div class="row">
          <!-- /.col -->
